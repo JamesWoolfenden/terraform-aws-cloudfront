@@ -35,7 +35,8 @@ Creates a static site with cloudfront distribution in front
 
 | Name | Description |
 |------|-------------|
-| domain\_name |  |
+| distribution |  |
+| domain\_name | Required for to publish Modules |
 | hosted\_zone\_id |  |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
@@ -59,7 +60,7 @@ Please use the [issue tracker](https://github.com/JamesWoolfenden/terraform-aws-
 
 ## Copyrights
 
-Copyright � 2019-2019 [Slalom, LLC](https://slalom.com)
+Copyright © 2018-2019 [Slalom, LLC](https://slalom.com)
 
 ## License
 

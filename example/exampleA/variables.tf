@@ -18,16 +18,16 @@ variable "origin" {
 }
 
 variable "aliases" {
-  type = "list"
+  type = list
 }
 
 
 variable "restriction_locations" {
-  type = "list"
+  type = list
 }
 
 variable "common_tags" {
-  type = "map"
+  type = map
 }
 
 variable "logging_config" {

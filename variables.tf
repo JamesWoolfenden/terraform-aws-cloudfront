@@ -15,14 +15,37 @@ variable "default_root_object" {
   type = string
 }
 
-variable "distribution_enabled" {}
-variable "domain_name" {}
-variable "ipv6_enabled" {}
-variable "logging_include_cookies" {}
-variable "price_class" {}
-variable "restriction_type" {}
-variable "ssl_support_method" {}
-variable "web_acl_id" {}
+variable "distribution_enabled" {
+  type = string
+}
+
+variable "domain_name" {
+  type = string
+}
+
+variable "ipv6_enabled" {
+  type = string
+}
+
+variable "logging_include_cookies" {
+  type = string
+}
+
+variable "price_class" {
+  type = string
+}
+
+variable "restriction_type" {
+  type = string
+}
+
+variable "ssl_support_method" {
+  type = string
+}
+
+variable "web_acl_id" {
+  type = string
+}
 
 variable "origin" {
   type = map
