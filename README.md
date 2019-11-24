@@ -1,5 +1,5 @@
 
-# terraform-aws-cloudfront [![Build Status](https://travis-ci.com/JamesWoolfenden/terraform-aws-cloudfront-s3.svg?branch=master)](https://travis-ci.com/JamesWoolfenden/terraform-aws-cloudfront-s3) [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-cloudfront-s3.svg)](https://github.com/JamesWoolfenden/terraform-aws-cloudfront-s3/releases/latest)
+# terraform-aws-cloudfront [![Build Status](https://travis-ci.com/JamesWoolfenden/terraform-aws-cloudfront.svg?branch=master)](https://travis-ci.com/JamesWoolfenden/terraform-aws-cloudfront) [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-cloudfront.svg)](https://github.com/JamesWoolfenden/terraform-aws-cloudfront/releases/latest)
 
 Terraform module to provision infra .
 
@@ -50,13 +50,13 @@ Check out these related projects.
 
 **Got a question?**
 
-File a GitHub [issue](https://github.com/JamesWoolfenden/terraform-aws-budget/issues).
+File a GitHub [issue](https://github.com/JamesWoolfenden/terraform-aws-cloudfront/issues).
 
 ## Contributing
 
 ### Bug Reports & Feature Requests
 
-Please use the [issue tracker](https://github.com/JamesWoolfenden/terraform-aws-budget/issues) to report any bugs or file feature requests.
+Please use the [issue tracker](https://github.com/JamesWoolfenden/terraform-aws-cloudfront/issues) to report any bugs or file feature requests.
 
 ## Copyrights
 
@@ -98,8 +98,8 @@ under the License.
 [linkedin]: https://www.linkedin.com/company/slalom-consulting/
 [twitter]: https://twitter.com/Slalom
 
-[share_twitter]: https://twitter.com/intent/tweet/?text=terraform-aws-budget&url=https://github.com/JamesWoolfenden/terraform-aws-budget
-[share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-aws-budget&url=https://github.com/JamesWoolfenden/terraform-aws-budget
-[share_reddit]: https://reddit.com/submit/?url=https://github.com/JamesWoolfenden/terraform-aws-budget
-[share_facebook]: https://facebook.com/sharer/sharer.php?u=https://github.com/JamesWoolfenden/terraform-aws-budget
-[share_email]: mailto:?subject=terraform-aws-budget&body=https://github.com/JamesWoolfenden/terraform-aws-budget
+[share_twitter]: https://twitter.com/intent/tweet/?text=terraform-aws-cloudfront&url=https://github.com/JamesWoolfenden/terraform-aws-cloudfront
+[share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-aws-cloudfront&url=https://github.com/JamesWoolfenden/terraform-aws-cloudfront
+[share_reddit]: https://reddit.com/submit/?url=https://github.com/JamesWoolfenden/terraform-aws-cloudfront
+[share_facebook]: https://facebook.com/sharer/sharer.php?u=https://github.com/JamesWoolfenden/terraform-aws-cloudfront
+[share_email]: mailto:?subject=terraform-aws-budget&body=https://github.com/JamesWoolfenden/terraform-aws-cloudfront
