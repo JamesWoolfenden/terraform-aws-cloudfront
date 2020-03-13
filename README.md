@@ -1,5 +1,10 @@
 
-# terraform-aws-cloudfront [![Build Status](https://travis-ci.com/JamesWoolfenden/terraform-aws-cloudfront.svg?branch=master)](https://travis-ci.com/JamesWoolfenden/terraform-aws-cloudfront) [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-cloudfront.svg)](https://github.com/JamesWoolfenden/terraform-aws-cloudfront/releases/latest)
+# terraform-aws-cloudfront
+
+[![Build Status](https://travis-ci.com/JamesWoolfenden/terraform-aws-cloudfront.svg?branch=master)](https://travis-ci.com/JamesWoolfenden/terraform-aws-cloudfront)
+[![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-cloudfront.svg)](https://github.com/JamesWoolfenden/terraform-aws-cloudfront/releases/latest)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![pre-commit](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
 
 Terraform module to provision infra .
 
@@ -8,36 +13,42 @@ Terraform module to provision infra .
 Creates a static site with cloudfront distribution in front
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Providers
+
+| Name | Version |
+|------|---------|
+| aws | n/a |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|:----:|:-----:|:-----:|
-| acm\_certificate\_arn |  | string | n/a | yes |
-| aliases |  | list | n/a | yes |
-| cloudfront\_default\_certificate |  | string | n/a | yes |
-| comment |  | string | n/a | yes |
-| common\_tags |  | map | n/a | yes |
-| default\_cache |  | map | n/a | yes |
-| default\_root\_object |  | string | n/a | yes |
-| distribution\_enabled |  | string | n/a | yes |
-| domain\_name |  | string | n/a | yes |
-| ipv6\_enabled |  | string | n/a | yes |
-| logging\_config |  | map | n/a | yes |
-| logging\_include\_cookies |  | string | n/a | yes |
-| origin |  | map | n/a | yes |
-| price\_class |  | string | n/a | yes |
-| restriction\_locations |  | list | n/a | yes |
-| restriction\_type |  | string | n/a | yes |
-| ssl\_support\_method |  | string | n/a | yes |
-| web\_acl\_id |  | string | n/a | yes |
+|------|-------------|------|---------|:-----:|
+| acm\_certificate\_arn | n/a | `string` | n/a | yes |
+| aliases | n/a | `list` | n/a | yes |
+| cloudfront\_default\_certificate | n/a | `string` | n/a | yes |
+| comment | n/a | `string` | n/a | yes |
+| common\_tags | n/a | `map` | n/a | yes |
+| default\_cache | n/a | `map` | n/a | yes |
+| default\_root\_object | n/a | `string` | n/a | yes |
+| distribution\_enabled | n/a | `string` | n/a | yes |
+| domain\_name | n/a | `string` | n/a | yes |
+| ipv6\_enabled | n/a | `string` | n/a | yes |
+| logging\_config | n/a | `map` | n/a | yes |
+| logging\_include\_cookies | n/a | `string` | n/a | yes |
+| origin | n/a | `map` | n/a | yes |
+| price\_class | n/a | `string` | n/a | yes |
+| restriction\_locations | n/a | `list` | n/a | yes |
+| restriction\_type | n/a | `string` | n/a | yes |
+| ssl\_support\_method | n/a | `string` | n/a | yes |
+| web\_acl\_id | n/a | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| distribution |  |
-| domain\_name | Required for to publish Modules |
-| hosted\_zone\_id |  |
+| distribution | n/a |
+| domain\_name | n/a |
+| hosted\_zone\_id | n/a |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Related Projects
@@ -60,7 +71,7 @@ Please use the [issue tracker](https://github.com/JamesWoolfenden/terraform-aws-
 
 ## Copyrights
 
-Copyright © 2018-2019 [Slalom, LLC](https://slalom.com)
+Copyright © 2018-2020 [Slalom, LLC](https://slalom.com)
 
 ## License
 
