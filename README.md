@@ -13,6 +13,10 @@ Terraform module to provision infra .
 Creates a static site with cloudfront distribution in front
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Requirements
+
+No requirements.
+
 ## Providers
 
 | Name | Version |
@@ -22,7 +26,7 @@ Creates a static site with cloudfront distribution in front
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:-----:|
+|------|-------------|------|---------|:--------:|
 | acm\_certificate\_arn | n/a | `string` | n/a | yes |
 | aliases | n/a | `list` | n/a | yes |
 | cloudfront\_default\_certificate | n/a | `string` | n/a | yes |
@@ -106,8 +110,8 @@ under the License.
 [logo]: https://gist.githubusercontent.com/JamesWoolfenden/5c457434351e9fe732ca22b78fdd7d5e/raw/15933294ae2b00f5dba6557d2be88f4b4da21201/slalom-logo.png
 [website]: https://slalom.com
 [github]: https://github.com/jameswoolfenden
-[linkedin]: https://www.linkedin.com/company/slalom-consulting/
-[twitter]: https://twitter.com/Slalom
+[linkedin]: https://www.linkedin.com/in/jameswoolfenden/
+[twitter]: https://twitter.com/JimWoolfenden
 
 [share_twitter]: https://twitter.com/intent/tweet/?text=terraform-aws-cloudfront&url=https://github.com/JamesWoolfenden/terraform-aws-cloudfront
 [share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-aws-cloudfront&url=https://github.com/JamesWoolfenden/terraform-aws-cloudfront
