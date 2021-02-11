@@ -31,20 +31,20 @@ No requirements.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | acm\_certificate\_arn | n/a | `string` | n/a | yes |
-| aliases | n/a | `list` | n/a | yes |
+| aliases | n/a | `list(any)` | n/a | yes |
 | cloudfront\_default\_certificate | n/a | `string` | n/a | yes |
 | comment | n/a | `string` | n/a | yes |
-| common\_tags | n/a | `map` | n/a | yes |
-| default\_cache | n/a | `map` | n/a | yes |
+| common\_tags | n/a | `map(any)` | n/a | yes |
+| default\_cache | n/a | `map(any)` | n/a | yes |
 | default\_root\_object | n/a | `string` | n/a | yes |
 | distribution\_enabled | n/a | `string` | n/a | yes |
 | domain\_name | n/a | `string` | n/a | yes |
 | ipv6\_enabled | n/a | `string` | n/a | yes |
-| logging\_config | n/a | `map` | n/a | yes |
+| logging\_config | n/a | `map(any)` | n/a | yes |
 | logging\_include\_cookies | n/a | `string` | n/a | yes |
-| origin | n/a | `map` | n/a | yes |
+| origin | n/a | `map(any)` | n/a | yes |
 | price\_class | n/a | `string` | n/a | yes |
-| restriction\_locations | n/a | `list` | n/a | yes |
+| restriction\_locations | n/a | `list(any)` | n/a | yes |
 | restriction\_type | n/a | `string` | n/a | yes |
 | ssl\_support\_method | n/a | `string` | n/a | yes |
 | web\_acl\_id | n/a | `string` | n/a | yes |
