@@ -48,25 +48,25 @@ variable "web_acl_id" {
 }
 
 variable "origin" {
-  type = map
+  type = map(any)
 }
 
 variable "aliases" {
-  type = list
+  type = list(any)
 }
 
 variable "default_cache" {
-  type = map
+  type = map(any)
 }
 
 variable "restriction_locations" {
-  type = list
+  type = list(any)
 }
 
 variable "logging_config" {
-  type = map
+  type = map(any)
 }
 
 variable "common_tags" {
-  type = map
+  type = map(any)
 }
