@@ -1,3 +1,8 @@
+common_tags = {
+  name        = "examplea"
+  "createdby" = "terraform"
+  module      = "terraform-aws-cloudfront"
+}
 acm_certificate_arn            = ""
 aliases                        = ["jenkins.elitevulkan.com"]
 cloudfront_default_certificate = "true"
@@ -38,11 +43,4 @@ origin = {
   id              = "TestOrigin"
   protocol_policy = "https-only"
   ssl_protocols   = "TLSv1.2"
-}
-
-common_tags = {
-  Application = "Aric"
-  CostCode    = "0"
-  SquadName   = "jim"
-  AccountType = "Aric"
 }

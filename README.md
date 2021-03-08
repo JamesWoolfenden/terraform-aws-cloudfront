@@ -26,6 +26,16 @@ No requirements.
 |------|---------|
 | aws | n/a |
 
+## Modules
+
+No Modules.
+
+## Resources
+
+| Name |
+|------|
+| [aws_cloudfront_distribution](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudfront_distribution) |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -56,7 +66,6 @@ No requirements.
 | distribution | n/a |
 | domain\_name | n/a |
 | hosted\_zone\_id | n/a |
-
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Related Projects
