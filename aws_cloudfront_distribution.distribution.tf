@@ -53,6 +53,7 @@ resource "aws_cloudfront_distribution" "distribution" {
     }
   }
 
+  # tfsec:ignore:AWS021
   viewer_certificate {
     acm_certificate_arn = var.acm_certificate_arn
     ssl_support_method  = var.ssl_support_method

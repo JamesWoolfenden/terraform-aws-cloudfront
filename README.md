@@ -24,48 +24,48 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| aws | n/a |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
 
 ## Modules
 
-No Modules.
+No modules.
 
 ## Resources
 
-| Name |
-|------|
-| [aws_cloudfront_distribution](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudfront_distribution) |
+| Name | Type |
+|------|------|
+| [aws_cloudfront_distribution.distribution](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudfront_distribution) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| acm\_certificate\_arn | n/a | `string` | n/a | yes |
-| aliases | n/a | `list(any)` | n/a | yes |
-| cloudfront\_default\_certificate | n/a | `string` | n/a | yes |
-| comment | n/a | `string` | n/a | yes |
-| common\_tags | n/a | `map(any)` | n/a | yes |
-| default\_cache | n/a | `map(any)` | n/a | yes |
-| default\_root\_object | n/a | `string` | n/a | yes |
-| distribution\_enabled | n/a | `string` | n/a | yes |
-| domain\_name | n/a | `string` | n/a | yes |
-| ipv6\_enabled | n/a | `string` | n/a | yes |
-| logging\_config | n/a | `map(any)` | n/a | yes |
-| logging\_include\_cookies | n/a | `string` | n/a | yes |
-| origin | n/a | `map(any)` | n/a | yes |
-| price\_class | n/a | `string` | n/a | yes |
-| restriction\_locations | n/a | `list(any)` | n/a | yes |
-| restriction\_type | n/a | `string` | n/a | yes |
-| ssl\_support\_method | n/a | `string` | n/a | yes |
-| web\_acl\_id | n/a | `string` | n/a | yes |
+| <a name="input_acm_certificate_arn"></a> [acm\_certificate\_arn](#input\_acm\_certificate\_arn) | n/a | `string` | n/a | yes |
+| <a name="input_aliases"></a> [aliases](#input\_aliases) | n/a | `list(any)` | n/a | yes |
+| <a name="input_cloudfront_default_certificate"></a> [cloudfront\_default\_certificate](#input\_cloudfront\_default\_certificate) | n/a | `string` | n/a | yes |
+| <a name="input_comment"></a> [comment](#input\_comment) | n/a | `string` | n/a | yes |
+| <a name="input_common_tags"></a> [common\_tags](#input\_common\_tags) | n/a | `map(any)` | n/a | yes |
+| <a name="input_default_cache"></a> [default\_cache](#input\_default\_cache) | n/a | `map(any)` | n/a | yes |
+| <a name="input_default_root_object"></a> [default\_root\_object](#input\_default\_root\_object) | n/a | `string` | n/a | yes |
+| <a name="input_distribution_enabled"></a> [distribution\_enabled](#input\_distribution\_enabled) | n/a | `string` | n/a | yes |
+| <a name="input_domain_name"></a> [domain\_name](#input\_domain\_name) | n/a | `string` | n/a | yes |
+| <a name="input_ipv6_enabled"></a> [ipv6\_enabled](#input\_ipv6\_enabled) | n/a | `string` | n/a | yes |
+| <a name="input_logging_config"></a> [logging\_config](#input\_logging\_config) | n/a | `map(any)` | n/a | yes |
+| <a name="input_logging_include_cookies"></a> [logging\_include\_cookies](#input\_logging\_include\_cookies) | n/a | `string` | n/a | yes |
+| <a name="input_origin"></a> [origin](#input\_origin) | n/a | `map(any)` | n/a | yes |
+| <a name="input_price_class"></a> [price\_class](#input\_price\_class) | n/a | `string` | n/a | yes |
+| <a name="input_restriction_locations"></a> [restriction\_locations](#input\_restriction\_locations) | n/a | `list(any)` | n/a | yes |
+| <a name="input_restriction_type"></a> [restriction\_type](#input\_restriction\_type) | n/a | `string` | n/a | yes |
+| <a name="input_ssl_support_method"></a> [ssl\_support\_method](#input\_ssl\_support\_method) | n/a | `string` | n/a | yes |
+| <a name="input_web_acl_id"></a> [web\_acl\_id](#input\_web\_acl\_id) | n/a | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| distribution | n/a |
-| domain\_name | n/a |
-| hosted\_zone\_id | n/a |
+| <a name="output_distribution"></a> [distribution](#output\_distribution) | n/a |
+| <a name="output_domain_name"></a> [domain\_name](#output\_domain\_name) | n/a |
+| <a name="output_hosted_zone_id"></a> [hosted\_zone\_id](#output\_hosted\_zone\_id) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Related Projects
