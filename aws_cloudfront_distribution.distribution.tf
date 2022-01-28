@@ -26,9 +26,10 @@ resource "aws_cloudfront_distribution" "distribution" {
   aliases = var.aliases
 
   default_cache_behavior {
-    allowed_methods  = split(",", var.default_cache["allowed_methods"])
-    cached_methods   = split(",", var.default_cache["cached_methods"])
-    target_origin_id = var.default_cache["target_origin_id"]
+    response_headers_policy_id = aws_cloudfront_response_headers_policy.example.id
+    allowed_methods            = split(",", var.default_cache["allowed_methods"])
+    cached_methods             = split(",", var.default_cache["cached_methods"])
+    target_origin_id           = var.default_cache["target_origin_id"]
 
     forwarded_values {
       query_string = var.default_cache["default_forwarded_values_query_string"]
