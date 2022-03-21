@@ -70,3 +70,31 @@ variable "logging_config" {
 variable "common_tags" {
   type = map(any)
 }
+
+variable "policy_name" {
+  type = string
+}
+
+variable "content_security_policy" {
+
+}
+
+variable "xss_protection" {
+
+}
+
+variable "frame_options" {
+
+}
+
+variable "content_type_options" {
+
+}
+
+variable "referrer_policy" {
+
+}
+
+variable "strict_transport_security" {
+
+}
