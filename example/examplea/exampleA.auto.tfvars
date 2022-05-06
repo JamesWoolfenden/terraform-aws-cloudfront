@@ -8,7 +8,7 @@ aliases                        = ["jenkins.elitevulkan.com"]
 cloudfront_default_certificate = "true"
 comment                        = "Make it great again"
 default_root_object            = "index.html"
-distribution_enabled           = "true"
+distribution_enabled           = true
 domain_name                    = "jenkins.domain.com"
 ipv6_enabled                   = true
 logging_include_cookies        = false
@@ -16,7 +16,7 @@ price_class                    = "PriceClass_200"
 restriction_locations          = ["GB"]
 restriction_type               = "whitelist"
 ssl_support_method             = "sni-only"
-web_acl_id                     = ""
+web_acl_id                     = "somevalue"
 
 
 default_cache = {

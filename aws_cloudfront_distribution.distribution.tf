@@ -1,4 +1,5 @@
 resource "aws_cloudfront_distribution" "distribution" {
+  # checkov:skip=CKV2_AWS_32: broken check
   origin {
     domain_name = var.domain_name
     origin_id   = var.origin["id"]
@@ -53,11 +54,10 @@ resource "aws_cloudfront_distribution" "distribution" {
       locations        = var.restriction_locations
     }
   }
-
-  # tfsec:ignore:AWS021
   viewer_certificate {
-    acm_certificate_arn = var.acm_certificate_arn
-    ssl_support_method  = var.ssl_support_method
+    minimum_protocol_version = "TLSv1.2_2021"
+    acm_certificate_arn      = var.acm_certificate_arn
+    ssl_support_method       = var.ssl_support_method
   }
 
   tags = var.common_tags

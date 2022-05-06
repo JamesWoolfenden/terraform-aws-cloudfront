@@ -6,12 +6,10 @@ module "cloudfront_distribution" {
   comment                        = var.comment
   common_tags                    = var.common_tags
   content_security_policy = {
+    content_security_policy = "default-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'; object-src 'none'; frame-ancestors 'none'"
     override                = true
-    content_security_policy = ""
   }
-  content_type_options = {
-    override = true
-  }
+  content_type_options = true
   default_cache        = var.default_cache
   default_root_object  = var.default_root_object
   distribution_enabled = var.distribution_enabled
@@ -34,10 +32,10 @@ module "cloudfront_distribution" {
   }
   ssl_support_method = var.ssl_support_method
   strict_transport_security = {
-    preload                    = true
-    override                   = true
+    access_control_max_age_sec = 31536000
     include_subdomains         = true
-    access_control_max_age_sec = 10
+    override                   = true
+    preload                    = true
   }
   web_acl_id = var.web_acl_id
   xss_protection = {

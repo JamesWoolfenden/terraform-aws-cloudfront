@@ -3,7 +3,8 @@
   "MD033": {
     "allowed_elements": [
       "br",
-      "a"
+      "a",
+      "pre"
     ]
   },
   "MD034": false,

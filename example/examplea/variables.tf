@@ -2,7 +2,8 @@ variable "acm_certificate_arn" {}
 variable "cloudfront_default_certificate" {}
 variable "comment" {}
 variable "default_root_object" {}
-variable "distribution_enabled" {}
+variable "distribution_enabled" {
+}
 variable "domain_name" {}
 variable "ipv6_enabled" {}
 variable "logging_include_cookies" {}
