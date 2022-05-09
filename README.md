@@ -46,7 +46,6 @@ No modules.
 | <a name="input_aliases"></a> [aliases](#input\_aliases) | n/a | `list(any)` | n/a | yes |
 | <a name="input_cloudfront_default_certificate"></a> [cloudfront\_default\_certificate](#input\_cloudfront\_default\_certificate) | n/a | `string` | n/a | yes |
 | <a name="input_comment"></a> [comment](#input\_comment) | n/a | `string` | n/a | yes |
-| <a name="input_common_tags"></a> [common\_tags](#input\_common\_tags) | n/a | `map(any)` | n/a | yes |
 | <a name="input_content_security_policy"></a> [content\_security\_policy](#input\_content\_security\_policy) | n/a | `map` | <pre>{<br>  "content_security_policy": "default-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'; object-src 'none'; frame-ancestors 'none'",<br>  "override": true<br>}</pre> | no |
 | <a name="input_content_type_options"></a> [content\_type\_options](#input\_content\_type\_options) | n/a | `bool` | `true` | no |
 | <a name="input_default_cache"></a> [default\_cache](#input\_default\_cache) | n/a | `map(any)` | n/a | yes |
@@ -65,6 +64,7 @@ No modules.
 | <a name="input_restriction_type"></a> [restriction\_type](#input\_restriction\_type) | n/a | `string` | n/a | yes |
 | <a name="input_ssl_support_method"></a> [ssl\_support\_method](#input\_ssl\_support\_method) | n/a | `string` | n/a | yes |
 | <a name="input_strict_transport_security"></a> [strict\_transport\_security](#input\_strict\_transport\_security) | n/a | `map` | <pre>{<br>  "access_control_max_age_sec": 31536000,<br>  "include_subdomains": true,<br>  "override": true,<br>  "preload": true<br>}</pre> | no |
+| <a name="input_tags"></a> [tags](#input\_tags) | n/a | `map(any)` | n/a | yes |
 | <a name="input_web_acl_id"></a> [web\_acl\_id](#input\_web\_acl\_id) | n/a | `string` | n/a | yes |
 | <a name="input_xss_protection"></a> [xss\_protection](#input\_xss\_protection) | n/a | `map` | <pre>{<br>  "mode_block": true,<br>  "override": true,<br>  "protection": true<br>}</pre> | no |
 

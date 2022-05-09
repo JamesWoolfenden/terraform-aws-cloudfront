@@ -60,5 +60,5 @@ resource "aws_cloudfront_distribution" "distribution" {
     ssl_support_method       = var.ssl_support_method
   }
 
-  tags = var.common_tags
+  tags = var.tags
 }

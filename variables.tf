@@ -68,7 +68,7 @@ variable "logging_config" {
   type = map(any)
 }
 
-variable "common_tags" {
+variable "tags" {
   type = map(any)
 }
 

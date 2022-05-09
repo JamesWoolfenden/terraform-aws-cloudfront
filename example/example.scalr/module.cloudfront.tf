@@ -1,5 +1,6 @@
 module "cloudfront_distribution" {
-  source                         = "../../"
+  source                         = "jameswoolfenden.scalr.io/acc-u1ksa0vgdflusgo/cloudfront/aws"
+  version                        = "0.2.48"
   acm_certificate_arn            = var.acm_certificate_arn
   aliases                        = var.aliases
   cloudfront_default_certificate = var.cloudfront_default_certificate

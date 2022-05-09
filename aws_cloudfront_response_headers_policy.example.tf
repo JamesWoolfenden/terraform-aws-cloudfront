@@ -8,7 +8,7 @@ resource "aws_cloudfront_response_headers_policy" "example" {
     }
 
     content_type_options {
-      override = var.content_type_options["override"]
+      override = var.content_type_options
     }
 
     frame_options {
