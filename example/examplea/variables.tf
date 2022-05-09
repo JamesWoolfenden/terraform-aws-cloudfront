@@ -27,9 +27,6 @@ variable "restriction_locations" {
   type = list(any)
 }
 
-variable "tags" {
-  type = map(any)
-}
 
 variable "logging_config" {
   type = map(any)
