@@ -4,7 +4,9 @@ module "cloudfront_distribution" {
   aliases                        = var.aliases
   cloudfront_default_certificate = var.cloudfront_default_certificate
   comment                        = var.comment
-  tags                           = var.tags
+  tags = {
+    yor_trace = "first"
+  }
   content_security_policy = {
     content_security_policy = "default-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'; object-src 'none'; frame-ancestors 'none'"
     override                = true

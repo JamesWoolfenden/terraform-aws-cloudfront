@@ -1,8 +1,4 @@
-tags = {
-  name        = "examplea"
-  "createdby" = "terraform"
-  module      = "terraform-aws-cloudfront"
-}
+
 acm_certificate_arn            = ""
 aliases                        = ["jenkins.elitevulkan.com"]
 cloudfront_default_certificate = "true"

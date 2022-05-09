@@ -1,11 +1,13 @@
 module "cloudfront_distribution" {
   source                         = "jameswoolfenden.scalr.io/acc-u1ksa0vgdflusgo/cloudfront/aws"
-  version                        = "0.2.48"
+  version                        = "0.2.49"
   acm_certificate_arn            = var.acm_certificate_arn
   aliases                        = var.aliases
   cloudfront_default_certificate = var.cloudfront_default_certificate
   comment                        = var.comment
-  tags                           = var.tags
+  tags = {
+    yor_trace = "first"
+  }
   content_security_policy = {
     content_security_policy = "default-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'; object-src 'none'; frame-ancestors 'none'"
     override                = true
