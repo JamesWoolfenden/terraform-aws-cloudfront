@@ -100,12 +100,19 @@ resource "aws_iam_policy" "terraform_pike" {
             "Effect": "Allow",
             "Action": [
                 "cloudfront:CreateDistribution",
+                "cloudfront:CreateDistributionWithTags",
+                "cloudfront:CreateResponseHeadersPolicy",
                 "cloudfront:DeleteDistribution",
+                "cloudfront:DeleteResponseHeadersPolicy",
                 "cloudfront:GetDistribution",
+                "cloudfront:GetDistributionConfig",
+                "cloudfront:GetResponseHeadersPolicy",
                 "cloudfront:ListTagsForResource",
                 "cloudfront:TagResource",
                 "cloudfront:UntagResource",
-                "cloudfront:UpdateDistribution"
+                "cloudfront:UpdateDistribution",
+                "cloudfront:UpdateDistributionWithStagingConfig",
+                "cloudfront:UpdateResponseHeadersPolicy"
             ],
             "Resource": [
                 "*"
