@@ -15,7 +15,6 @@ Terraform module to provision infra .
 
 It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
-## Introduction
 ## Usage
 
 Creates a static site with cloudfront distribution in front

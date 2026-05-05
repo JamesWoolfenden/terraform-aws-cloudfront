@@ -1,5 +1,7 @@
 resource "aws_cloudfront_distribution" "distribution" {
   # checkov:skip=CKV2_AWS_32: broken check
+  # checkov:skip=CKV_AWS_310: origin failover left to consumer
+  # checkov:skip=CKV2_AWS_47: WAF rules managed by attached web ACL
   origin {
     domain_name = var.domain_name
     origin_id   = var.origin["id"]

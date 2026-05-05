@@ -1,4 +1,5 @@
 resource "aws_cloudfront_response_headers_policy" "example" {
+  # checkov:skip=CKV_AWS_259: HSTS max-age driven by var.strict_transport_security
   name = var.policy_name
 
   security_headers_config {
